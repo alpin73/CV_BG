@@ -1,9 +1,37 @@
+body{
+    background-image: url('fond_site.jpg'); 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-image: url('fond_ban.jpg');
+}
 header h1{
-    color: rgb(12, 12, 82);
+    color: brown;
+    position: sticky;
+    top: 0px; 
 }
 header h2{
-    color: yellowgreen;
+    color: blue;
+    font-size: 15px;
+    position: sticky;
+    right: 10px;
 }
-body{
-    color: red;
+
+#coordonnees
+{
+    color: blueviolet;
+}
+name{
+    color: darksalmon;
+}
+
+
+
+
+
+
+
+footer{
+    color: rgb(165, 165, 165);
+    font-size: 10px;
 }
