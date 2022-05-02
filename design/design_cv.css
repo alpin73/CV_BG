@@ -2,29 +2,38 @@ body{
     background-image: url('fond_site.jpg'); 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+#page{
+    width: 900px;
+    margin: auto;
+}
 header{
     background-image: url('fond_ban.jpg');
+    color: #0077b5;
+    position: fixed;
+    left: 0px;
+    right: 1%;
 }
 header h1{
-    color: brown;
-    position: sticky;
+    text-transform: capitalize;
+    text-align: center;
     top: 0px; 
 }
 header h2{
-    color: blue;
-    font-size: 15px;
-    position: sticky;
-    right: 10px;
+    font-size: 1.1em;
+    text-align: right;
 }
 
-#coordonnees
-{
+#coordonnees{
     color: blueviolet;
 }
-name{
+#name{
+    position: relative;
+    padding: auto;
     color: darksalmon;
 }
-
+#coordonnees a{
+    color: darkgoldenrod;
+}
 
 
 
@@ -33,5 +42,5 @@ name{
 
 footer{
     color: rgb(165, 165, 165);
-    font-size: 10px;
+    font-size: 0.5em;
 }
