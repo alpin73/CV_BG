@@ -22,19 +22,62 @@ header h2{
     font-size: 1.1em;
     text-align: right;
 }
+#page{
+    display: flex;
+}
 
 #coordonnees{
-    color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    margin-top: 175px;
+    color: rgb(44, 43, 43);
 }
 #name{
-    position: relative;
-    padding: auto;
-    color: darksalmon;
+    font-size: 1.2em;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 175px;
+    height: 30px;
+}
+#adress{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 40px;
 }
 #coordonnees a{
-    color: darkgoldenrod;
+    color: rgb(44, 43, 43);
 }
-
+#tel{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+#email{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30;
+}
+#site{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+#lkn{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 70px;
+    height: 30px;
+}
+#git{
+    margin-left: 0px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
 
 
 
