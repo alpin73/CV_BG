@@ -2,40 +2,46 @@ body{
     background-image: url('fond_site.jpg'); 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#page{
-    width: 900px;
-    margin: auto;
-}
 header{
+    display: flex;
     background-image: url('fond_ban.jpg');
     color: #0077b5;
     position: fixed;
-    left: 0px;
-    right: 1%;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 150px;
 }
 header h1{
     text-transform: capitalize;
-    text-align: center;
-    top: 0px; 
+    height: 30px;
+    margin-top: 25px;
+    margin-bottom: 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header h2{
+    display: none;
     font-size: 1.1em;
-    text-align: right;
+    margin-right: 20px;
+    align-self: flex-end;
+    height: 25px;
+    width: auto;
 }
 #page{
     display: flex;
 }
-
 #coordonnees{
     display: flex;
     flex-direction: column;
-    margin-top: 175px;
+    margin-top: 125px;
+    margin-left: 25px;
     color: rgb(44, 43, 43);
 }
 #name{
     font-size: 1.2em;
+    font-weight: bold;
     margin-left: 0px;
-    margin-bottom: 10px;
     width: 175px;
     height: 30px;
 }
@@ -78,12 +84,35 @@ header h2{
     width: 30px;
     height: 30px;
 }
+#titre{
+    color: #0077b5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+}
+.date{
+    font-size: 1em;
+}
+.entreprise{
+    font-size: 1.05em;
+}
+.poste{
+    font-size: 1em;
+}
 
 
 
 
-
-footer{
+footer a{
     color: rgb(165, 165, 165);
-    font-size: 0.5em;
+    font-size: 0.75em;
+}
+footer{
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
